@@ -15,5 +15,5 @@ fun main(args: Array<String>) {
 
 	val crawler = Crawler(HashSet())
 
-	crawler.getLinkedPages("https://www.google.de", AtomicInteger(0))
+	crawler.getLinkedPages("https://ilias.hs-karlsruhe.de/", AtomicInteger(0))
 }
